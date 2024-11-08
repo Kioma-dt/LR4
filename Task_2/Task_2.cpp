@@ -13,7 +13,7 @@ int main(){
 
 void solve(){
     unsigned long long m = 3, n = 4;
-    long long a[100][100] = {{3, 4, -4, 2},{ -3, -10, 15, 22}, {33, -4, -5, 1}};
+    long long a[200][200] = {{3, 4, -4, 2},{ -3, -10, 15, 22}, {33, -4, -5, 1}};
 
     long long k = 0;
     for (int i = 0; i < m;i++){
