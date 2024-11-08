@@ -194,7 +194,7 @@ unsigned long long checkUnsignedLong(){
             }
         }
 
-        printf("Неверный формат ввода!\n");
+        printf("Неверный формат ввода! Необходими ввести целое неотрицательное число!\n");
         while (getchar()!='\n');
     }
 
